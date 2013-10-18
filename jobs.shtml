@@ -1,0 +1,27 @@
+<!--#include virtual="inc/header.html" -->
+		<div id="content">
+			<div id="nameblock">
+				<p>Jobs at Dawg Pizza</p>
+			</div>
+
+			<div id="info">
+				<div id="open-title">
+					<h1>Open Positions</h1>
+					<img id="hiring" src="img/hiring.png" alt="hiring-image">
+				</div>
+				<div class="main-sect position">
+					<img class="hire-img" src="img/chef.png" alt="chef-image">
+					<h3>Kitchen Staff</h3>
+					<p><a href="mailto:dawgpizzaseattle@gmail.com">Contact Us</a> for more information on this position</p>
+				</div>
+				<div class="main-sect position">
+					<img class="hire-img" src="img/deliver.png" alt="driver-image">
+					<h3>Delivery Drivers</h3>
+					<p><a href="mailto:dawgpizzaseattle@gmail.com">Contact Us</a> for more information on this position</p>
+				</div>			
+				<div class="main-sect">
+					<p>We'd love to have you join our amazing staff! If you have questions or would like to apply, please call or <a href="mailto:dawgpizzaseattle@gmail.com">email us</a>!</p>
+				</div>	
+			</div>	
+		</div>
+<!--#include virtual="inc/footer.html" -->

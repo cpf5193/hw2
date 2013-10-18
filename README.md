@@ -1,4 +1,4 @@
-hw2
+hw1
 ===
 
-Info 343 Version 2.0
+Homework 1 Repository

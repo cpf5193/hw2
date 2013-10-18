@@ -1,0 +1,213 @@
+/* Google web fonts 'Open Sans' (italic and normal) and 'Boogaloo' */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Tangerine:400,700);
+
+/* reset CSS file to reset browser default styling to a consistent starting point */
+@import url(reset.css);
+
+body {
+    background-image: url(../img/texture.png);
+    background-repeat: repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+#header img{
+    height: 34px;
+    position: absolute;
+    width: 45px;
+}
+
+#footer{
+    background-color: #2A2F57;
+    bottom: 0;
+    color: #FFF;
+    position: fixed;
+    width: 100%;
+}
+
+#footer p{
+    font-size: 12px;
+    font-style: italic;
+    margin: 0 auto;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul{
+    height: 34px;
+    margin-left: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+nav{
+    background-color: #2A2F57;
+    margin-left: 45px;
+}
+
+nav a{
+	color: #FFF;
+	padding: 10px;
+	font-weight: bold;
+}
+
+nav li, nav a{
+	display: inline-block;
+}
+
+nav a:link, nav a:visited{
+	text-decoration: none;
+}
+
+nav a:hover{
+	background-color: #6D6772;
+}
+
+#content{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:	10px;
+	margin-bottom: 54px;
+	box-shadow: 2px 2px 6px #555;
+	text-align: center;
+	background-color: #F1DDAB;
+}
+
+#nameblock p{
+    font-family: 'Tangerine',sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    min-height: 80px;
+    padding-top: 15px;
+}
+
+#nameblock > p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#info{
+	background-color: #9F77D6;
+	padding: 10px 10px;
+	border-top: 5px solid #50278B;
+}
+
+#info > p{
+	width: 60%;
+	margin: 0 auto 10px auto; 
+}
+
+#info > img{
+	margin: 15px 0;
+	border: 2px solid #FFF;
+}
+
+.main-sect{
+	margin-bottom: 10px;
+}
+
+.main-sect h2{
+	font-size: 18px;
+	font-weight: bold; 
+	text-decoration: underline;
+	margin-bottom: 8px;
+}
+
+.main-sect p{
+	margin: 2px 0;
+}
+
+.main-sect a{
+	text-decoration: none;
+}
+
+.main-sect a:hover{
+	text-decoration: underline;
+}
+
+.main-sect dt{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.descr, .price{
+	font-size: 10px;
+	font-style: italic;
+}
+
+.nocenter{
+	text-align: left;
+	text-indent: 2em;
+}
+
+.menu-item{
+	margin: 10px;
+}
+
+#table-sect td{
+	padding-top: 20px;
+	width: 50%;
+}
+
+#sizes{
+	width: 60%;
+	margin: 10px auto;
+}
+
+#sizes td{
+	width: 33%;
+}
+
+#attention{
+	width: 80%;
+	border: 5px solid #FFF;
+	box-shadow: 2px 2px 6px #444;
+	margin: 30px auto 0px auto;
+	padding: 10px;
+}
+
+#main-descr{
+	font-style: italic;
+	font-size: 14px;
+}
+
+.hire-img{
+	clear: left;
+	float: left;
+}
+
+.position{
+	overflow: hidden;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+#info h1{
+	text-decoration: underline;
+	font-size: 24px;
+	font-weight: bold;
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: 50%;
+}
+
+#open-title{
+	display: inline-block;
+}
+
+.position img{
+	margin-right: 20px;
+}
+
+.position h3{
+	margin: 15px 0;
+	font-weight: bold;
+}
+
+img#hiring{
+	border: none;
+	margin-bottom: 0px;
+}
