@@ -209,9 +209,9 @@ img.hiring{
   background-image: linear-gradient(to right, rgba(256,256,256,0.5) 0%, rgba(256,256,256,0.0001) 100%);
 }
 
-@media (max-width: 470px) { 
+@media (max-width: 590px) { 
 	.content{
-		min-width: 333px;
+		min-width: 463px;
 	}
 	.navbar-nav{
   	margin: 51px 0 0 0;
@@ -219,6 +219,12 @@ img.hiring{
 
  	.navbar{
  		min-width: 250px;
+ 	}
+ }
+
+ @media (max-width: 250px){
+ 	.headimg{
+ 		display: none;
  	}
  }
 

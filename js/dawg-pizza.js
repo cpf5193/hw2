@@ -1,4 +1,6 @@
 (window.onload = function(){
+	//This function figures out which page is currently being displayed and
+	//distributes the active class to the appropriate nav section
 	var pageType = window.location.toString().split(".")[2].split('/')[4];
 	switch(pageType){
 	case "menu":
